@@ -1,0 +1,14 @@
+Desempenho do Modelo:
+
+Com Normalização: O modelo de regressão logística com normalização apresentou uma acurácia relativamente alta na classificação das espécies de flores do conjunto de dados Iris. A normalização dos dados de características ajudou o modelo a convergir mais rapidamente durante o treinamento, resultando em um desempenho geral melhor.
+Sem Normalização: O modelo sem normalização também apresentou uma acurácia razoável na classificação das espécies de flores. No entanto, sem a normalização dos dados, o treinamento pode ser mais sensível a diferenças nas escalas das características, o que pode afetar a convergência e o desempenho do modelo.
+Comparação entre os Modelos:
+
+A visualização dos resultados dos modelos por meio dos gráficos de dispersão nos permite comparar como cada modelo está fazendo suas previsões. Com a normalização, podemos ver que as previsões estão mais agrupadas e separadas por classe, indicando uma separação mais clara entre as diferentes espécies de flores. Sem a normalização, as previsões podem não estar tão bem agrupadas, o que pode resultar em uma separação menos distinta entre as classes.
+Importância da Normalização:
+
+Durante a atividade, observamos que a normalização dos dados de características é importante para o treinamento eficiente de modelos de aprendizado de máquina, especialmente para algoritmos sensíveis à escala das características, como a regressão logística. A normalização ajuda a garantir que todas as características contribuam igualmente para o aprendizado do modelo, independentemente de suas escalas originais.
+Flexibilidade do Modelo:
+
+O modelo de regressão logística é um bom ponto de partida para problemas de classificação como este. Ele é simples, fácil de interpretar e geralmente oferece bom desempenho em conjuntos de dados bem comportados, como o conjunto de dados Iris. No entanto, para conjuntos de dados mais complexos, outros modelos mais avançados podem ser explorados para melhorar ainda mais o desempenho.
+Em resumo, a normalização dos dados de características desempenha um papel crucial no desempenho dos modelos de aprendizado de máquina, especialmente para algoritmos sensíveis à escala das características. No caso do conjunto de dados Iris, o modelo de regressão logística apresentou resultados promissores, e a normalização dos dados contribuiu para melhorar seu desempenho geral.
